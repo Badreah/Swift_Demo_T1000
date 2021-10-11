@@ -1,13 +1,11 @@
 //
-//  main.swift
+//  Marks.swift
 //  swift_demo_T1000
 //
-//  Created by user on 10/11/21.
+//  Created by Badreah Saad on 05/03/1443 AH.
 //
 
 import Foundation
-
-print("Hello, World!")
 
 print("Enter student mark=")
 let mark: Double = Utils.readDouble()

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		987B450D271428B200877706 /* Marks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 987B450C271428B200877706 /* Marks.swift */; };
 		CE02B52C27140BEB00861F3D /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE02B52B27140BEB00861F3D /* main.swift */; };
 		CE02B53527140DC100861F3D /* utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE02B53427140DC100861F3D /* utils.swift */; };
 /* End PBXBuildFile section */
@@ -24,6 +25,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		987B450C271428B200877706 /* Marks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Marks.swift; sourceTree = "<group>"; };
 		CE02B52827140BEB00861F3D /* swift_demo_T1000 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = swift_demo_T1000; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE02B52B27140BEB00861F3D /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		CE02B53427140DC100861F3D /* utils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = utils.swift; sourceTree = "<group>"; };
@@ -40,6 +42,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		987B450A2714282700877706 /* week1 */ = {
+			isa = PBXGroup;
+			children = (
+				987B450B2714283300877706 /* day1 */,
+			);
+			path = week1;
+			sourceTree = "<group>";
+		};
+		987B450B2714283300877706 /* day1 */ = {
+			isa = PBXGroup;
+			children = (
+				987B450C271428B200877706 /* Marks.swift */,
+			);
+			path = day1;
+			sourceTree = "<group>";
+		};
 		CE02B51F27140BEA00861F3D = {
 			isa = PBXGroup;
 			children = (
@@ -59,6 +77,7 @@
 		CE02B52A27140BEB00861F3D /* swift_demo_T1000 */ = {
 			isa = PBXGroup;
 			children = (
+				987B450A2714282700877706 /* week1 */,
 				CE02B52B27140BEB00861F3D /* main.swift */,
 				CE02B53427140DC100861F3D /* utils.swift */,
 			);
@@ -123,6 +142,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				987B450D271428B200877706 /* Marks.swift in Sources */,
 				CE02B52C27140BEB00861F3D /* main.swift in Sources */,
 				CE02B53527140DC100861F3D /* utils.swift in Sources */,
 			);
